@@ -1,0 +1,6 @@
+export { default as SearchBar } from './SearchBar.vue'
+export { default as HelpCard } from './HelpCard.vue'
+export { default as HotIssues } from './HotIssues.vue'
+export { default as RequiredBeginners } from './RequiredBeginners.vue'
+export { default as FAQ } from './FAQ.vue'
+export { default as Feedback } from './Feedback.vue'

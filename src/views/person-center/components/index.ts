@@ -1,0 +1,5 @@
+export { default as Overview } from './overview/index.vue'
+export { default as SafetyCenter } from './safetyCenter/index.vue'
+export { default as AuthId } from './authId/index.vue'
+export { default as Preferences } from './preferences/index.vue'
+export { default as Api } from './api/index.vue'

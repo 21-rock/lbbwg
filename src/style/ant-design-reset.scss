@@ -1,0 +1,56 @@
+.breadcrumb-theme-black {
+  font-size: 16px;
+
+  a,
+  .ant-breadcrumb-separator {
+    color: #939393;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .ant-breadcrumb-link {
+    color: #fff;
+  }
+}
+
+/************* 表单样式   *************************/
+
+.ant-deep-slider,
+.ant-deep-slider:hover {
+  .ant-slider-rail,
+  .ant-slider-track {
+    height: 2px;
+    background: #424242;
+  }
+}
+
+.ant-deep-slider {
+  margin: 0 0 20px !important;
+
+  .ant-slider-step {
+    // ant-slider-dot ant-slider-dot-active
+    .ant-slider-dot {
+      border-color: #727272;
+      background: #727272;
+    }
+  }
+
+  .ant-slider-mark {
+    .ant-slider-mark-text {
+      color: #fff;
+      font-size: 12px;
+    }
+  }
+
+  .ant-slider-handle {
+    &::after {
+      box-shadow: 0 0 0 2px #727272 !important;
+    }
+  }
+}
+
+.ant-slider-horizontal {
+  padding-block: 5px !important;
+}

@@ -1,0 +1,7 @@
+export { default as SwitchTypePopover } from './SwitchTypePopover.vue'
+export { default as CurrentTradeInfo } from './CurrentTradeInfo.vue'
+export { default as OrderTable } from './OrderTable.vue'
+export { default as ExchangePanel } from './ExchangePanel.vue'
+export { default as ExchangeForm } from './ExchangeForm.vue'
+export { default as EntrustTable } from './EntrustTable.vue'
+export { default as OrderConfirm } from './OrderConfirm.vue'

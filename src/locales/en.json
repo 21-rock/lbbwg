@@ -1,0 +1,10 @@
+{
+  "message": {
+    "hello": "hello world"
+  },
+  "nav": {
+    "hq": "Discover",
+    "jy": "Trade",
+    "jryw": "Grow"
+  }
+}
