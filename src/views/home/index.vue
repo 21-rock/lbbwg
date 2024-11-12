@@ -36,12 +36,12 @@ const getData = async () => {
     getNewCoinApi(),
     getRankApi()
   ])
-  const marketRes = await getMarketApi()
+  // const marketRes = await getMarketApi()
   topCoin.value = topCoinRes.data || []
   newCoin.value = newCoinRes.data || []
   rankCoin.value = rankCoinRes.data || []
 
-  console.log('--marketRes--', marketRes)
+  // console.log('--marketRes--', marketRes)
 }
 
 onMounted(() => {
